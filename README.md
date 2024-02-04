@@ -53,13 +53,8 @@ More detailed analysis examining other types of amenities and businesses at diff
 
 ```python
 # Convert to Markdown file.
-!jupyter nbconvert --to markdown "Formative Assessment v1 - Copy.ipynb"
+!jupyter nbconvert --to markdown "Formative Assessment v1.ipynb"
 ```
-
-    [NbConvertApp] Converting notebook Formative Assessment v1 - Copy.ipynb to markdown
-    [NbConvertApp] Support files will be in Formative Assessment v1 - Copy_files\
-    [NbConvertApp] Writing 19366 bytes to Formative Assessment v1 - Copy.md
-    
 
 
 ```python
@@ -92,7 +87,7 @@ ox.plot_graph(G)
 
 
     
-![png](output_9_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_9_0.png)
     
 
 
@@ -123,7 +118,7 @@ Base_map
 
 
     
-![png](output_10_1.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_10_1.png)
     
 
 
@@ -157,7 +152,7 @@ fig, ax = ox.plot_graph(G1, node_size=0, node_color='w', node_edgecolor='gray', 
 
 
     
-![png](output_14_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_14_0.png)
     
 
 
@@ -184,7 +179,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_15_0.png)
     
 
 
@@ -212,7 +207,7 @@ fig, ax = ox.plot_graph(G2, node_size=0, node_color='w', node_edgecolor='gray', 
 
 
     
-![png](output_18_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_18_0.png)
     
 
 
@@ -235,7 +230,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_19_0.png)
     
 
 
@@ -637,7 +632,7 @@ fig.savefig('fig1_points.png', dpi=400)
 
 
     
-![png](output_25_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_25_0.png)
     
 
 
@@ -660,7 +655,7 @@ fig.savefig("fig2_closeness.png", dpi = 400)
 
 
     
-![png](output_26_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_26_0.png)
     
 
 
@@ -683,7 +678,7 @@ fig.savefig('fig3_betweenness.png', dpi=400)
 
 
     
-![png](output_27_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_27_0.png)
     
 
 
@@ -716,6 +711,6 @@ plt.show()
 
 
     
-![png](output_29_0.png)
+![png](Formative%20Assessment%20v1_files/Formative%20Assessment%20v1_29_0.png)
     
 
